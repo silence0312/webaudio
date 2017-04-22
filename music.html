@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>AudioVisualizer</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+</head>
+<body>
+    <div  class = "head">
+        <p class ="h-a">音乐可视化</p>
+    </div>
+    <div  class = "aside"></div>
+    <div  class = "body">
+        <canvas id="drawCanvas" width="1000" height="500"></canvas>
+    </div>
+
+    <div id="container">
+        <div class="aside">
+            <p id="info">HTML5 Audio visualizer</p>
+            <span id="fileIn">
+                Click me to select an audio file.
+            </span>
+            <input type="file" id="uploader"/>
+        </div>                      
+    </div>
+
+   
+
+    <script type="text/javascript" src = "js/loader.js"></script>
+    <script type="text/javascript" src = "js/music.js"></script>
+</body>
+</html>

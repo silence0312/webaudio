@@ -1,0 +1,60 @@
+.head{top:0;
+	height:100px;
+	background-color: #D28EFF;
+	position:absolute;
+	left:0;
+	width:100%;
+}
+.aside{width:300px;	
+	background-color: #FFB3FF;
+	bottom: 0;	
+	position:absolute;
+	left:0;
+	top:100px;
+	bottom:50px;
+	height:100%;
+	overflow:auto;
+}
+.body{position:relative;
+	left:300px;
+	right:0;top:0;
+	left:0;
+	margin-left:300px;
+	background-color: white;
+	bottom: 0;
+	position:absolute;
+	left:0;
+	top:100px;
+	bottom:50px;
+	height:100%;
+	overflow:auto;
+}
+
+.h-a{text-align: center;
+	font:bold 35px helvetica,arial, sans-serif;
+	color: #999;
+	text-shadow:0.1em 0.1em #333;
+}
+#info {
+	padding: 0;
+	margin: 1px;
+	-webkit-user-select:none  //禁止用户选择复制
+}
+
+#fileIn {
+	text-decoration: underline;
+	color: #36B953;
+	-webkit-user-select:none
+}
+/* 鼠标移上去 字体颜色的变化 */
+#fileIn:hover {
+	cursor: pointer;
+	color: #FF00B4;
+}
+
+#uploader {
+	display: none;
+}
+
+
+
